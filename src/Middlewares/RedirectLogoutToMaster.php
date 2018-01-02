@@ -24,7 +24,7 @@ class RedirectLogoutToMaster implements ServerMiddlewareInterface
     {
         $user = $request->getAttribute('actor');
 
-        if ($request->getUri()->getPath() !== '/logout' || $user instanceof Guest) {
+        if ($request->getUri()->getPath() !== '' || $user instanceof Guest) {
             return $delegate->process($request);
         }
 

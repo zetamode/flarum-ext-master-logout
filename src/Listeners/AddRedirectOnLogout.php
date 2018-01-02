@@ -15,6 +15,6 @@ class AddRedirectOnLogout
 
     public function routes(ConfigureMiddleware $middleware)
     {
-        $middleware->pipe->pipe('/', app(RedirectLogoutToMaster::class));
+        $middleware->pipe->pipe('/logout', app(RedirectLogoutToMaster::class));
     }
 }
