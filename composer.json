@@ -1,0 +1,40 @@
+{
+    "name": "zetamode/flarum-ext-master-logout",
+    "description": "Master logout de ZetaMode",
+    "keywords": [
+        "extension",
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flagrow/mason/issues",
+        "source": "https://github.com/flagrow/mason"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7",
+        "spatie/url-signer": "^1.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "ZetaMode Logout",
+            "icon": {
+                "name": "eye",
+                "backgroundColor": "#d870ad",
+                "color": "#ffffff"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ZetaMode\\MasterLogout\\": "src/"
+        }
+    }
+}
