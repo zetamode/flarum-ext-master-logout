@@ -15,8 +15,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/flagrow/mason/issues",
-        "source": "https://github.com/flagrow/mason"
+        "issues": "https://github.com/zetamode/flarum-ext-master-logout/issues",
+        "source": "https://github.com/zetamode/flarum-ext-master-logout"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.7",
